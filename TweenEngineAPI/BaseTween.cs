@@ -278,7 +278,7 @@ namespace TweenEngine
 
 		/// These _Build, _Start methods are part of a workaround for C# not supporting wildcards in generics.
 		/// Because there is no C# equivalent to Java's "BaseTween<?>", we can't make a collection of BaseTween objects.
-		/// Too work around this limitation, the bulk of the original BaseTween implementation has been moved to IBaseTween,
+		/// To work around this limitation, the bulk of the original BaseTween implementation has been moved to IBaseTween,
 		/// leaving only the methods that used the template type in BaseTween. 
 		/// These methods act as a proxy to the methods still left in BaseTween.
 		internal abstract void _Build();
